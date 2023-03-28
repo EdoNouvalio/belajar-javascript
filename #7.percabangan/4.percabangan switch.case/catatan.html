@@ -1,0 +1,52 @@
+// Percabangan switch/case adalah bentuk lain dari percabangan if/else/if.
+// Strukturnya seperti ini:
+
+switch(variabel){
+    case <value>:
+        // blok kode
+        break;
+    case <value>:
+        // blok kode
+        break;
+    default:
+        // blok kode
+}
+
+// Kita dapat mermbuat blok kode (case) sebanyak yang diinginkan di dalam blok switch.
+// Pada <value>, kita bisa isi dengan nilai yang nanti akan dibandingkan dengan varabel.
+// Setiap case harus diakhiri dengan break. Khusus untuk default, tidak perlu diakhiri dengan break karena dia terletak di bagian akhir.
+// Pemberian break bertujuan agar program berhenti mengecek case berikutnya saat sebuah case terpenuhi
+// Percabangan switch/case juga dapat dibuat seperti ini:
+
+var nilai = prompt("input nilai");
+var grade = "";
+
+switch(true){
+    case nilai < 90:
+        grade = "A";
+        break;
+    case nilai < 80:
+        grade = "B+";
+        break;
+    case nilai < 70:
+        grade = "B";
+        break;
+    case nilai < 60:
+        grade = "C+";
+        break;
+    case nilai < 50:
+        grade = "C";
+        break;
+    case nilai < 40:
+        grade = "D";
+        break;
+    case nilai < 30:
+        grade = "E";
+        break;
+    default:
+        grade = "F";
+}
+
+// Pertama-tama, kita berikan nilai true pada switch, ini agar kita bisa masuk ke dalam blok switch.
+// Lalu di dalam blok switch, kita buat kondisi dengan menggunakan case.
+// Hasilnya akan sama seperti pada contoh percabangan if/else/if.

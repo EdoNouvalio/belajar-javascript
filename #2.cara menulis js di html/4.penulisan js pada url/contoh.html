@@ -1,0 +1,1 @@
+<a href="javascript:alert('Wih! hebat bukan?')">Coba Klik</a>

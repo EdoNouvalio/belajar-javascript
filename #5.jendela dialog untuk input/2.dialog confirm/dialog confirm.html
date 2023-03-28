@@ -1,0 +1,27 @@
+<!-- Saat kita menghapus sesuatu, maka ada baiknya menampilkan dialog confirm().
+Karena tindakan tersebut cukup berbahaya  -->
+<!-- Dialog confirm dapat dibuat dengan fungsi confirm(). -->
+<!-- contoh -->
+<!-- _____confirm("Apakah anda yakin akan menghapus?");_____ -->
+
+<!-- Dialog confirm() akan mengembalikan nilai true apabila
+kita memilih tombol OK dan akan mengembalikan nilai false apabila kita memilih Cancel. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dialog Confirm</title>
+    </head>
+    <body>
+    <script>
+        var yakin = confirm("Apakah kamu yakin akan mengunjungi instagram, saya?");
+
+        if (yakin) {
+            window.location = "https://www.instagram.com/m.edonouvalio";
+        } else {
+            document.write("Baiklah, tetap di sini saja ya :)");
+        }
+    </script>
+    </body>
+</html>
+

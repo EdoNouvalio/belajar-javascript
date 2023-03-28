@@ -1,0 +1,10 @@
+Percabangan if/else merupakan percabangan yang memiliki dua blok pilihan.
+Pilihan pertama untuk kondisi benar, dan pilihan kedua untuk kondisi salah (else).
+
+Apabila password benar, pesan yang ada pada blok hijau akan ditampilkan: “Selamat datang bos!”
+
+Tapi kalau salah, maka pesan yang ada di blok merah yang akan ditampilkan: “Password salah, coba lagi!”
+
+Kemudian, pesan yang berada di blok abu-abu akan tetap ditampilkan, karena dia bukan bagian dari blok percabangan if/else.
+
+Perhatikan arah panahnya, setiap blok if/else mengarah ke sana…
